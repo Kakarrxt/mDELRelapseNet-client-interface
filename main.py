@@ -6,7 +6,7 @@ from tensorflow.keras.models import load_model
 
 # Set page configuration
 st.set_page_config(
-    page_title="PhenoRelapseNet",
+    page_title="mDELRelapseNet",
     page_icon="🔬",
     layout="wide"
 )
@@ -124,7 +124,7 @@ def main():
     st.sidebar.title("About PhenoRelapseNet")
     st.sidebar.markdown("""
     ### Overview
-    PhenoRelapseNet is a deep learning-based tool for predicting relapse risk in Diffuse Large B-Cell Lymphoma (DLBCL) patients using multiplex immunohistochemistry images.
+    mDELRelapseNet is a deep learning-based tool for predicting relapse risk in Diffuse Large B-Cell Lymphoma (DLBCL) patients using multiplex immunohistochemistry images.
     
     ### Features
     - Multi-marker analysis (MYC, BCL2, BCL6)
@@ -148,11 +148,11 @@ def main():
     """)
 
     st.sidebar.markdown("---")
-    st.sidebar.markdown("Created by Kanav - SAIL Lab CSI")
-    st.sidebar.markdown("© 2024 SAIL Lab. All rights reserved.")
+    st.sidebar.markdown("Created by Kanav - ADJ Lab CSI")
+    st.sidebar.markdown("© 2025 ADJ Lab. All rights reserved.")
 
     # Main content
-    st.title("PhenoRelapseNet")
+    st.title("mDELRelapseNet")
     st.subheader("Relapse Risk Prediction in DLBCL using Deep Learning", divider="gray")
 
     with st.expander("Configuration", expanded=True):
