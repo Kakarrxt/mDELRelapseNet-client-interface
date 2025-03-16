@@ -1,9 +1,0 @@
-streamlit==1.39.0
-numpy==1.26.4
-scikit-learn==1.4.2
-tensorflow==2.17.0
-pillow 
-patchify==0.2.3
-keras==3.4.1
-
-
