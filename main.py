@@ -121,7 +121,7 @@ def main():
 
     # Sidebar
     st.sidebar.image("CSi_logo.png", width=200)
-    st.sidebar.title("About PhenoRelapseNet")
+    st.sidebar.title("About mDELRelapseNet")
     st.sidebar.markdown("""
     ### Overview
     mDELRelapseNet is a deep learning-based tool for predicting relapse risk in Diffuse Large B-Cell Lymphoma (DLBCL) patients using multiplex immunohistochemistry images.
